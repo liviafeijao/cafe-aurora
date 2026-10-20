@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Café Aurora: cafés especiais, doces artesanais e momentos acolhedores.">
+
+    <title>Café Aurora | Um momento só seu</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                Café <span>Aurora</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                ☰
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Nossa história</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#horarios">Horários</a>
+                <a href="#contato" class="nav-contact">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <span class="eyebrow">SEU NOVO LUGAR FAVORITO</span>
+
+                <h1>Pequenas pausas,<br>
+                    grandes momentos.</h1>
+
+                <p>
+                    O aroma do café fresquinho, o sabor dos nossos doces
+                    e um ambiente feito para você se sentir em casa.
+                </p>
+
+                <a href="#cardapio" class="button">
+                    Conheça nosso cardápio
+                </a>
+            </div>
+        </section>
+
+        <section class="about section" id="sobre">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85"
+                        alt="Ambiente aconchegante de uma cafeteria"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">BEM-VINDO À AURORA</span>
+
+                    <h2>Mais que café,<br>um lugar para ficar.</h2>
+
+                    <p>
+                        A Café Aurora nasceu da ideia de que os melhores
+                        momentos podem começar com uma xícara de café.
+                    </p>
+
+                    <p>
+                        Somos uma cafeteria fictícia criada para celebrar
+                        conversas, encontros, livros e aquelas pausas
+                        merecidas no meio da rotina.
+                    </p>
+
+                    <a href="#contato" class="text-link">
+                        Venha nos conhecer →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu section" id="cardapio">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">FEITO COM CARINHO</span>
+                    <h2>Os queridinhos da casa</h2>
+                    <p>Uma seleção especial para deixar seu dia melhor.</p>
+                </div>
+
+                <div class="products-grid">
+                    <article class="product-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85"
+                            alt="Café com leite e espuma cremosa"
+                            loading="lazy"
+                        >
+
+                        <div class="product-info">
+                            <span class="product-category">CAFÉS</span>
+                            <h3>Latte Aurora</h3>
+                            <p>
+                                Café espresso com leite vaporizado
+                                e uma espuma cremosa.
+                            </p>
+                            <span class="price">R$ 12,00</span>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
+                            alt="Pães artesanais recém-assados"
+                            loading="lazy"
+                        >
+
+                        <div class="product-info">
+                            <span class="product-category">PADARIA</span>
+                            <h3> Croissant Dourado</h3>
+                            <p>
+                                Massa folhada, leve e crocante,
+                                perfeita para acompanhar seu café.
+                            </p>
+                            <span class="price">R$ 10,00</span>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85"
+                            alt="Bolo de chocolate com cobertura"
+                            loading="lazy"
+                        >
+
+                        <div class="product-info">
+                            <span class="product-category">DOCES</span>
+                            <h3>Bolo de Chocolate</h3>
+                            <p>
+                                Bolo macio com cobertura de chocolate
+                                para adoçar sua pausa.
+                            </p>
+                            <span class="price">R$ 14,00</span>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="menu-note">
+                    * Cardápio e preços ilustrativos, criados para este projeto.
+                </p>
+            </div>
+        </section>
+
+        <section class="hours section" id="horarios">
+            <div class="container hours-content">
+                <span class="eyebrow">ESTAMOS TE ESPERANDO</span>
+                <h2>Seu café tem hora marcada.</h2>
+
+                <div class="hours-card">
+                    <p><span>Segunda a sexta</span><strong>08h às 19h</strong></p>
+                    <p><span>Sábados</span><strong>09h às 17h</strong></p>
+                    <p><span>Domingos e feriados</span><strong>Fechado</strong></p>
+                </div>
+
+                <p class="hours-note">
+                    Horários fictícios para demonstração do site.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact section" id="contato">
+            <div class="container contact-grid">
+                <div>
+                    <span class="eyebrow">VAMOS CONVERSAR?</span>
+                    <h2>Tem café, tem conversa.</h2>
+                    <p>
+                        Ficou com vontade de conhecer a Aurora?
+                        Entre em contato pelos canais de demonstração abaixo.
+                    </p>
+                </div>
+
+                <div class="contact-details">
+                    <p>
+                        <strong>E-mail</strong>
+                        <a href="mailto:oi@cafeaurora.example">
+                            oi@cafeaurora.example
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Telefone fictício</strong>
+                        <a href="tel:+5500000000000">
+                            (00) 00000-0000
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Endereço</strong>
+                        <span>Rua dos Sonhos, 123 — Cidade Aurora</span>
+                    </p>
+
+                    <a href="#inicio" class="button button-dark">
+                        Voltar ao início ↑
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#inicio" class="logo logo-light">
+                Café <span>Aurora</span>
+            </a>
+
+            <p>Feito com ☕ e carinho.</p>
+
+            <p>
+                © <span id="current-year"></span> Café Aurora.
+                Projeto fictício para estudo de front-end.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
